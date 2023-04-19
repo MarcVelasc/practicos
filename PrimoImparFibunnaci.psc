@@ -4,7 +4,7 @@ Funcion fibunnaci<- numFibunnaci(numero)
 	anterior=1
 	cont=0
 	Para i<-1 Hasta numero Con Paso 1 Hacer
-		
+		Escribir resultado
 		resultado=cantidad + anterior
 		anterior= cantidad
 		cantidad= resultado
@@ -17,7 +17,7 @@ Funcion fibunnaci<- numFibunnaci(numero)
 	sino 
 		Imprimir "no es fibonnaci"
 	FinSi
-
+	
 Fin Funcion
 Funcion ParImpar<-numParImpar(numero)
 	Si numero mod 2=0  Entonces
